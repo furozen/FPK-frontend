@@ -1,0 +1,6 @@
+<button (click)="search()">  Поиск </button>
+
+
+<div *ngFor="let item of results; let i=index">
+    {{item | json}}
+</div>
