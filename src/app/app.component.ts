@@ -10,7 +10,7 @@ import {AppModel} from './AppModel';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements IIDClass {
   readonly ID: string = 'AppComponent';

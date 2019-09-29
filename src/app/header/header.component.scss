@@ -1,0 +1,32 @@
+.header{
+  display: flex;
+  width: 100%;
+  height: 80px;
+  box-shadow: 0px 4px 5px 0px rgba(181,181,181,1);
+  .logoRow{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    position: relative;
+
+    hr.downscale2{
+      border: 0;
+      background-color: #e21a19;
+      height: 3px;
+      transform:none;
+      position: absolute;
+      width: 75%;
+      top: 54.4px;
+      left: 0;
+    }
+    .logo1{
+
+    }
+    .downscale2{
+      transform:scale(0.66,0.66) translate(60px, -19px)
+    }
+  }
+
+
+}

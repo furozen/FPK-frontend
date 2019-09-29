@@ -4,6 +4,7 @@ import {filter} from 'rxjs/operators';
 import {IIDClass} from './interfaces';
 import {createLogger, ILogger} from './utils/Logger';
 import {Subject} from 'rxjs';
+import {TPositionsCollection} from 'FPKFOOD-models/dist';
 
 @Injectable({
   providedIn: 'root'
@@ -12,7 +13,7 @@ export class SearchService implements IIDClass {
   ID: string = 'DataTransportService';
   logger: ILogger = createLogger(this.ID);
 
-  private results:Subject<any> = new Subject<any>();
+  private results:Subject<TPositionsCollection[]> = new Subject<TPositionsCollection[]>();
   results$ = this.results.asObservable();
 
 
