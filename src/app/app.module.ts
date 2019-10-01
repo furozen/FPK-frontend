@@ -7,6 +7,9 @@ import {AppRoutingModule} from './app-routing.module';
 import { IdentifyComponent } from './identify/identify.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { AuthPageComponent } from './mockPages/auth-page/auth-page.component';
+import { OrderMockComponent } from './mockPages/order-mock/order-mock.component';
+import { TinderComponent } from './mockPages/tinder/tinder.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +18,9 @@ import { FooterComponent } from './footer/footer.component';
     IdentifyComponent,
     HeaderComponent,
     FooterComponent,
+    AuthPageComponent,
+    OrderMockComponent,
+    TinderComponent,
 
   ],
   imports: [
